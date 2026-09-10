@@ -23,5 +23,6 @@ int main() {
         cout << "The point is not on the circle." << endl;
     }
 
+    
     return 0;
 }
