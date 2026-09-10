@@ -7,7 +7,21 @@ bool operation(double x, double h, double y, double k, double r)
     
     bool result=((pow(x-h,2))+(pow(y-k,2)))==(pow(r,2));
 
-return result;
+    return result;
 }
 
-$(x - h)^2 + (y - k)^2 = r^2$.
+int main() {
+    double x = 8.0;
+    double y = 4.0;
+    double h = 3.0;
+    double k = 4.0;
+    double r = 5.0;
+
+    if (operation(x, h, y, k, r)) {
+        cout << "The point is on the circle." << endl;
+    } else {
+        cout << "The point is not on the circle." << endl;
+    }
+
+    return 0;
+}
