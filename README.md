@@ -1,2 +1,3 @@
-# Progress-to-MIT
-Daily physics simulations, mathematical modeling, and C++ algorithms built to master MIT First-Year STEM concepts.
+Progress to SAT
+This is my daily progress toward top universities through SAT study.
+
